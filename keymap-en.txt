@@ -1,0 +1,118 @@
+status	key	command
+Composition	Backspace	Backspace
+Conversion	Backspace	Cancel
+Precomposition	Backspace	Revert
+Composition	Ctrl a	MoveCursorToBeginning
+Conversion	Ctrl a	SegmentFocusFirst
+Composition	Ctrl Backspace	Backspace
+Conversion	Ctrl Backspace	Cancel
+Precomposition	Ctrl Backspace	Undo
+Composition	Ctrl d	MoveCursorRight
+Conversion	Ctrl d	SegmentFocusRight
+Prediction	Ctrl Delete	DeleteSelectedCandidate
+Conversion	Ctrl Down	CommitOnlyFirstSegment
+Composition	Ctrl Down	MoveCursorToEnd
+Composition	Ctrl e	MoveCursorToBeginning
+Conversion	Ctrl e	ConvertPrev
+Composition	Ctrl Enter	Commit
+Conversion	Ctrl Enter	Commit
+Composition	Ctrl f	MoveCursorToEnd
+Conversion	Ctrl f	SegmentFocusLast
+Conversion	Ctrl g	Cancel
+Composition	Ctrl g	Delete
+Composition	Ctrl h	Backspace
+Conversion	Ctrl h	Cancel
+Composition	Ctrl k	MoveCursorLeft
+Conversion	Ctrl k	SegmentWidthShrink
+Conversion	Ctrl l	SegmentWidthExpand
+Composition	Ctrl l	MoveCursorRight
+Composition	Ctrl Left	MoveCursorToBeginning
+Conversion	Ctrl Left	SegmentFocusFirst
+Composition	Ctrl m	Commit
+Conversion	Ctrl m	Commit
+Conversion	Ctrl n	CommitOnlyFirstSegment
+Composition	Ctrl n	MoveCursorToEnd
+Composition	Ctrl Right	MoveCursorToEnd
+Conversion	Ctrl Right	SegmentFocusLast
+Composition	Ctrl s	MoveCursorLeft
+Conversion	Ctrl s	SegmentFocusLeft
+DirectInput	Ctrl Shift Space	IMEOff
+Precomposition	Ctrl Shift Space	IMEOff
+Composition	Ctrl Shift Space	IMEOff
+Conversion	Ctrl Shift Space	IMEOff
+Suggestion	Ctrl Shift Space	IMEOff
+Prediction	Ctrl Shift Space	IMEOff
+DirectInput	Ctrl Space	InputModeHalfAlphanumeric
+Precomposition	Ctrl Space	InputModeHalfAlphanumeric
+Composition	Ctrl Space	InputModeHalfAlphanumeric
+Conversion	Ctrl Space	InputModeHalfAlphanumeric
+Suggestion	Ctrl Space	InputModeHalfAlphanumeric
+Prediction	Ctrl Space	InputModeHalfAlphanumeric
+Composition	Ctrl t	ConvertToHalfAlphanumeric
+Conversion	Ctrl t	ConvertToHalfAlphanumeric
+Composition	Ctrl Up	MoveCursorToBeginning
+Conversion	Ctrl Up	ConvertPrev
+Composition	Ctrl x	MoveCursorToEnd
+Conversion	Ctrl x	ConvertNext
+Composition	Ctrl z	Cancel
+Conversion	Ctrl z	Cancel
+Conversion	Delete	Cancel
+Composition	Delete	Delete
+Composition	Down	MoveCursorToEnd
+Suggestion	Down	PredictAndConvert
+Conversion	Down	ConvertNext
+Composition	End	MoveCursorToEnd
+Conversion	End	SegmentFocusLast
+Composition	Enter	Commit
+Conversion	Enter	Commit
+Composition	ESC	Cancel
+Conversion	ESC	Cancel
+Composition	F10	ConvertToHalfAlphanumeric
+Conversion	F10	ConvertToHalfAlphanumeric
+DirectInput	F13	IMEOn
+Composition	F2	ConvertWithoutHistory
+Composition	Home	MoveCursorToBeginning
+Conversion	Home	SegmentFocusFirst
+Composition	Left	MoveCursorLeft
+Conversion	Left	SegmentFocusLeft
+Conversion	PageDown	ConvertNextPage
+Conversion	PageUp	ConvertPrevPage
+Composition	Right	MoveCursorRight
+Conversion	Right	SegmentFocusRight
+Composition	Shift Backspace	Backspace
+Conversion	Shift Backspace	Cancel
+Conversion	Shift Down	ConvertNextPage
+Suggestion	Shift Enter	CommitFirstSuggestion
+Composition	Shift ESC	Cancel
+Conversion	Shift ESC	Cancel
+Conversion	Shift Henkan	ConvertPrev
+Composition	Shift Left	MoveCursorLeft
+Conversion	Shift Left	SegmentWidthShrink
+Conversion	Shift Right	SegmentWidthExpand
+Composition	Shift Right	MoveCursorRight
+Composition	Shift Space	Convert
+Precomposition	Shift Space	InsertAlternateSpace
+Conversion	Shift Space	ConvertPrev
+Conversion	Shift Tab	ConvertPrev
+Conversion	Shift Up	ConvertPrevPage
+Composition	Space	Convert
+Precomposition	Space	InsertSpace
+Conversion	Space	InsertSpace
+Suggestion	Space	InsertSpace
+Prediction	Space	InsertSpace
+Composition	Tab	PredictAndConvert
+Conversion	Tab	PredictAndConvert
+Conversion	Up	ConvertPrev
+Composition	ASCII	InsertCharacter
+Composition	Kanji	IMEOff
+Composition	OFF	IMEOff
+Composition	ON	IMEOn
+Conversion	Kanji	IMEOff
+Conversion	OFF	IMEOff
+Conversion	ON	IMEOn
+DirectInput	Kanji	IMEOn
+DirectInput	ON	IMEOn
+Precomposition	ASCII	InsertCharacter
+Precomposition	Kanji	IMEOff
+Precomposition	OFF	IMEOff
+Precomposition	ON	IMEOn
